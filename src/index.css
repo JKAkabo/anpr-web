@@ -6,3 +6,16 @@
   color: #2c3e50;
   /*margin-top: 60px;*/
 }
+#sm-screen-warning {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  height: 100%;
+}
+@media only screen and (max-width: 760px) {
+  #app { display: none; }
+  #sm-screen-warning {display: flex}
+}
